@@ -21,3 +21,6 @@ This contract is designed to mint **NAKV** tokens based on certain conditions. A
 4. **Creator Reward**: The contract creator will receive an initial reward of **10,000 NAKV tokens** as per the contract's design.
 
 For more details and contract interaction, visit the [contract page on Snowtrace](https://snowtrace.io/address/0x69CB4b27a800334F467B3F322089011c9DD2e1d4/contract/43114/writeContract?chainid=43114).
+
+Lfj.gg : https://lfj.gg/avalanche/pool/v1/0x69cb4b27a800334f467b3f322089011c9dd2e1d4/AVAX
+JLP : https://snowscan.xyz/address/0xA94cC34Bfbc8aEA85a7552dE745d2dCDBA78893a
