@@ -30,6 +30,22 @@ During each mint operation, a percentage of the minted amount is distributed to 
 - Distribution is proportional to holders' token balance
 - Contract owner is excluded from reflection distribution
 
+### Reflection Fee Mechanism During Minting  
+
+During the minting process, the reflection mechanism distributes payments to all existing holders. If the AVAX gas fees for a given mint are not profitable, no inflation or rewards can be generated. However, in cases where there is profitability due to price increases, any user can mint tokens from a wallet that hasn’t previously participated. By doing so, the cost they incur helps maintain the price stability.  
+
+Additionally, a significant portion of the newly minted tokens is reflected back to existing holders as payments. This means that even if a holder lacks the "economic capacity" to participate in the profitable minting process, the miner effectively compensates them through the reflection mechanism.  
+
+This system is fully dependent on price profitability. In summary:  
+- **If the token price falls below gas fee costs (reflection distribution costs), no one will mint tokens**, ensuring price protection.  
+- **If profitability exceeds gas fee costs**, someone will pay the cost to mint tokens and distribute reflection payments to all holders.  
+
+#### Dynamic Adjustment After Large Mint Events  
+
+Following a large-scale mint (e.g., 100,000 wallets), rewards will be halved. To address this, the reflection distribution is incrementally reduced from 50% to 25%. This approach creates a balanced system where inverse correlation becomes possible, ensuring stability and fairness within the ecosystem.  
+
+---  
+
 #### Minting Eligibility
 - One-time minting per wallet address
 - Minimum gas expenditure requirement: 1.1 nAVAX
