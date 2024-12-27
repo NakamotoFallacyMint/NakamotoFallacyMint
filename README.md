@@ -40,6 +40,8 @@ This system is fully dependent on price profitability. In summary:
 - **If the token price falls below gas fee costs (reflection distribution costs), no one will mint tokens**, ensuring price protection.  
 - **If profitability exceeds gas fee costs**, someone will pay the cost to mint tokens and distribute reflection payments to all holders.  
 
+Warning: Due to the reflection feature, minting might not be possible at a single point within one block as we might exceed the gas limit per block.
+
 #### Dynamic Adjustment After Large Mint Events  
 
 Following a large-scale mint (e.g., 100,000 wallets), rewards will be halved. To address this, the reflection distribution is incrementally reduced from 50% to 25%. This approach creates a balanced system where inverse correlation becomes possible, ensuring stability and fairness within the ecosystem.  
